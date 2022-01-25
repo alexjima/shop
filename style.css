@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+ @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.header {
+
+height: 75px;
+background: #222222;
+display: flex;
+justify-content: space-between ;
+align-items: center;
+padding: 18px 16px; 
+box-sizing: border-box; 
+}
+.search-pic {
+    margin-left: 41px;
+}
+.account {
+    margin-left: 25px;
+    margin-right: 42px;
+}
+
+.card-icon-wrap {
+    position: relative;
+}
+.card-icon-wrap span {
+display: inline-block;
+height: 19px;
+width: 19px;
+color: white;
+background: #F16D7F;
+border-radius: 50% ;
+position: absolute;
+text-align: center;
+right: -8px;
+top: -19px;
+font-family: Lato;
+font-size: 12px;
+line-height: 19px;
+
+}
+
+
+.top {
+     min-height: 363px;
+height: 764px;
+background: #F1E4E6; 
+}
+.words  {
+position: absolute;
+left: 864px;
+top: 364.9px;
+color: #222222;
+}
+.h1 {
+font-size: 48px;
+}
+.h2 {
+    font-weight: bold;
+    font-size: 32px; 
+}
+.colortext {
+    color: #F16D7F;
+}
+
+@media (min-width: 1600px) {
+    .header {
+        margin: 0 auto;
+        width: 1140px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .main-pic   {
+        display: none;
+    }
+}
+.words {
+border-left: 12px solid #F16D7F;
+padding-left: 15px;
+height: 61px;
+}
+
