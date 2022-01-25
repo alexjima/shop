@@ -71,7 +71,8 @@ font-size: 48px;
         width: 1140px;
     }
 }
-
+//разобраться
+    
 @media (min-width: 768px) {
     .header {
         padding-left: 32px;
